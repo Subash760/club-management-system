@@ -29,6 +29,22 @@
             <h2>Upcoming Events</h2>
             <p>List of events will be displayed here.</p>
         </section>
+        <section id="event-form">
+            <h2>Create an Event</h2>
+            <form id="eventForm">
+                <label for="eventName">Event Name:</label>
+                <input type="text" id="eventName" name="eventName" placeholder="Enter event name" required>
+                
+                <label for="eventDate">Event Date:</label>
+                <input type="date" id="eventDate" name="eventDate" required>
+        
+                <label for="eventDesc">Description:</label>
+                <textarea id="eventDesc" name="eventDesc" placeholder="Describe the event" rows="4" required></textarea>
+                
+                <button type="submit">Create Event</button>
+            </form>
+        </section>
+        
     </main>
 
     <footer>
